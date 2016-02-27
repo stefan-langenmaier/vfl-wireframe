@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="1" x="200" y="132" measuredWidth="504" measuredHeight="224" dimmed="true">
+    <screen xsi:type="model:Screen" href="blog-post-vorschau.screen#/"/>
+    <overrides>
+      <widgets ref="5" text="2016/02/03"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:SVGImage" id="2" x="40" y="144" width="153" height="153" measuredWidth="153" measuredHeight="153" src="../assets/icons/wintersport.svg"/>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

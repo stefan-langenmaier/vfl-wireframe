@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Link" id="3" x="234" y="168" text="Titel zum Blogpost" measuredWidth="204" measuredHeight="40">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="4" x="234" y="272" width="504" height="120" text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." measuredWidth="504" measuredHeight="120">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:DateField" id="5" x="234" y="220" text="  /  /  " measuredWidth="90" measuredHeight="40"/>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

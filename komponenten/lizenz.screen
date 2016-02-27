@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Text" id="1" x="32" y="136" text="Flaticon&#xA;&#xA;Link zu Flaticon" measuredWidth="166" measuredHeight="96">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="2" x="32" y="16" text="Lizenz der Seite&#xA;&#xA;CC" measuredWidth="167" measuredHeight="96">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
