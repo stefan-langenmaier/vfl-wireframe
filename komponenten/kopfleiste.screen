@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
   <widgets xsi:type="model:Image" id="1" x="72" y="72" width="705" height="273" measuredWidth="705" measuredHeight="273"/>
-  <widgets xsi:type="model:Label" id="2" x="344" y="150" text="Title" measuredWidth="173" measuredHeight="118">
+  <widgets xsi:type="model:Label" id="2" x="344" y="150" text="Title" measuredWidth="86" measuredHeight="67">
     <font size="43px"/>
   </widgets>
-  <widgets xsi:type="model:LinkBar" id="9" x="224" y="72" text="Verein,Turnen,Fussball,Tischtennis,Wintersport, Tennis" measuredWidth="553" measuredHeight="34">
+  <widgets xsi:type="model:Label" id="10" x="72" y="72" text="Title" measuredWidth="27" measuredHeight="21">
     <font size="10px"/>
-    <items x="0" y="0" width="57" height="34" text="Verein"/>
-    <items x="75" y="0" width="64" height="34" text="Turnen"/>
-    <items x="157" y="0" width="76" height="34" text="Fussball"/>
-    <items x="251" y="0" width="99" height="34" text="Tischtennis"/>
-    <items x="368" y="0" width="107" height="34" text="Wintersport"/>
-    <items x="493" y="0" width="59" height="34" text="Tennis"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="10" x="72" y="72" text="Title" measuredWidth="44" measuredHeight="34">
-    <font size="10px"/>
+  <widgets xsi:type="model:ButtonBar" id="11" x="72" y="72" width="705" text="Verein,Turnen,Fussball,Tischtennis,Wintersport, Tennis" measuredWidth="705" measuredHeight="27" selection="0">
+    <font/>
+    <items x="0" y="0" width="96" height="27" text="Verein"/>
+    <items x="96" y="0" width="104" height="27" text="Turnen"/>
+    <items x="200" y="0" width="111" height="27" text="Fussball"/>
+    <items x="311" y="0" width="143" height="27" text="Tischtennis"/>
+    <items x="454" y="0" width="146" height="27" text="Wintersport"/>
+    <items x="600" y="0" width="105" height="27" text="Tennis"/>
   </widgets>
   <hRuler/>
   <vRuler/>

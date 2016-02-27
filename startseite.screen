@@ -3,10 +3,15 @@
   <widgets xsi:type="model:Browser" id="1" x="120" y="72" width="737" height="1400" text="Firefox&#xA;http://vflzusamaltheim.de" measuredWidth="737" measuredHeight="1400">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Master" id="2" x="120" y="124" measuredWidth="705" measuredHeight="273" dimmed="true">
+  <widgets xsi:type="model:Master" id="2" x="120" y="124" width="737" measuredWidth="737" measuredHeight="273" dimmed="true">
     <screen xsi:type="model:Screen" href="komponenten/kopfleiste.screen#/"/>
+    <overrides>
+      <widgets ref="1" width="737"/>
+      <widgets ref="2" x="355" width="88"/>
+      <widgets ref="9" x="238"/>
+    </overrides>
   </widgets>
-  <widgets xsi:type="model:Master" id="3" x="200" y="1312" measuredWidth="599" measuredHeight="140" dimmed="true">
+  <widgets xsi:type="model:Master" id="3" x="200" y="1312" measuredWidth="556" measuredHeight="123" dimmed="true">
     <screen xsi:type="model:Screen" href="komponenten/fussleiste.screen#/"/>
   </widgets>
   <widgets xsi:type="model:Master" id="4" x="161" y="421" measuredWidth="664" measuredHeight="224" dimmed="true">
