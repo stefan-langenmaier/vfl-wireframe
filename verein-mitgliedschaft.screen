@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="1" x="80" y="43" width="1000" height="1400" text="Mitgliedschaft&#xA;http://..." measuredWidth="1000" measuredHeight="1400">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="3" x="106" y="108" measuredWidth="705" measuredHeight="273" dimmed="true">
+    <screen xsi:type="model:Screen" href="komponenten/kopfleiste.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:LinkBar" id="4" x="106" y="380" text="Startseite > Verein > Mitgliedschaft" measuredWidth="375" measuredHeight="40">
+    <font/>
+    <items x="0" y="0" width="374" height="40" text="Startseite > Verein > Mitgliedschaft"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="7" x="288" y="1306" measuredWidth="599" measuredHeight="140" dimmed="true">
+    <screen xsi:type="model:Screen" href="komponenten/fussleiste.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="8" x="106" y="464" width="770" height="642" text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." measuredWidth="770" measuredHeight="642">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
