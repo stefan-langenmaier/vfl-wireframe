@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
-  <widgets xsi:type="model:Browser" id="1" x="120" y="72" width="657" height="513" text="Firefox&#xA;http://vflzusamaltheim.de" measuredWidth="657" measuredHeight="513">
+  <widgets xsi:type="model:Browser" id="1" x="120" y="72" width="737" height="1400" text="Firefox&#xA;http://vflzusamaltheim.de" measuredWidth="737" measuredHeight="1400">
     <font/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="2" x="120" y="124" measuredWidth="705" measuredHeight="273" dimmed="true">
+    <screen xsi:type="model:Screen" href="komponenten/kopfleiste.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="3" x="200" y="1312" measuredWidth="599" measuredHeight="140" dimmed="true">
+    <screen xsi:type="model:Screen" href="komponenten/fussleiste.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="4" x="161" y="421" measuredWidth="664" measuredHeight="224" dimmed="true">
+    <screen xsi:type="model:Screen" href="komponenten/tennis-blog-post-vorschau.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="5" x="152" y="688" measuredWidth="664" measuredHeight="224" dimmed="true">
+    <screen xsi:type="model:Screen" href="komponenten/tischtennis-blog-post-vorschau.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="6" x="163" y="925" measuredWidth="664" measuredHeight="224" dimmed="true">
+    <screen xsi:type="model:Screen" href="komponenten/verein-blog-post-vorschau.screen#/"/>
   </widgets>
   <hRuler/>
   <vRuler/>

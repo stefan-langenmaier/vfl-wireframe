@@ -6,7 +6,7 @@
   <widgets xsi:type="model:Label" id="3" x="373" y="196" text="BfV" measuredWidth="42" measuredHeight="75" textAlignment="Center" icon="image (large)" iconPosition="top">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Label" id="4" x="448" y="196" text="FussballSeite" measuredWidth="142" measuredHeight="75" textAlignment="Center" icon="image (large)" iconPosition="top">
+  <widgets xsi:type="model:Label" id="4" x="448" y="196" text="FuPa" measuredWidth="55" measuredHeight="75" textAlignment="Center" icon="image (large)" iconPosition="top">
     <font/>
   </widgets>
   <widgets xsi:type="model:Label" id="5" x="620" y="196" text="Impressum" measuredWidth="117" measuredHeight="75" textAlignment="Center" icon="image (large)" iconPosition="top">
@@ -15,7 +15,10 @@
   <widgets xsi:type="model:Label" id="6" x="753" y="196" text="Kontakt" measuredWidth="87" measuredHeight="75" textAlignment="Center" icon="image (large)" iconPosition="top">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Text" id="7" x="408" y="304" text="2016 - VfL Zusamaltheim" measuredWidth="271" measuredHeight="32">
+  <widgets xsi:type="model:Text" id="7" x="408" y="304" text="2016 - VfL Zusamaltheim" measuredWidth="270" measuredHeight="32">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="8" x="536" y="196" text="RSS" measuredWidth="46" measuredHeight="75" textAlignment="Center" icon="image (large)" iconPosition="top">
     <font/>
   </widgets>
   <hRuler/>
