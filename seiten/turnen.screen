@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides">
+  <widgets xsi:type="model:Browser" id="1" x="80" y="43" width="1000" height="1400" text="Browser&#xA;http://..." measuredWidth="1000" measuredHeight="1400">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:ButtonBar" id="2" x="106" y="424" width="871" height="97" text="Ansprechpartner,Sparten,Trainingstermine,Terminkalender,Bildergallerie" measuredWidth="871" measuredHeight="97" selection="0">
+    <font size="8px"/>
+    <items x="0" y="0" width="199" height="97" text="Ansprechpartner"/>
+    <items x="199" y="0" width="109" height="97" text="Sparten"/>
+    <items x="308" y="0" width="201" height="97" text="Trainingstermine"/>
+    <items x="509" y="0" width="188" height="97" text="Terminkalender"/>
+    <items x="697" y="0" width="174" height="97" text="Bildergallerie"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="3" x="106" y="108" measuredWidth="705" measuredHeight="273" dimmed="true">
+    <screen xsi:type="model:Screen" href="../komponenten/kopfleiste.screen#/"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Insert" newIndex="4">
+        <object xsi:type="model:ButtonBar" id="9" x="72" y="75" width="705" text="Verein,Turnen,Fussball,Tischtennis,Wintersport, Tennis" selection="0">
+          <font/>
+          <items text="Verein"/>
+          <items text="Turnen"/>
+          <items text="Fussball"/>
+          <items text="Tischtennis"/>
+          <items text="Wintersport"/>
+          <items text="Tennis"/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Delete" ref="10"/>
+      <widgetChanges xsi:type="o:Delete" ref="9"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="7" x="288" y="1306" measuredWidth="599" measuredHeight="140" dimmed="true">
+    <screen xsi:type="model:Screen" href="../komponenten/fussleiste.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Breadcrumbs" id="10" x="106" y="391" text="Startseite, Turnen" measuredWidth="201" measuredHeight="40">
+    <font/>
+    <items x="0" y="0" width="103" height="40" text="Startseite"/>
+    <items x="123" y="0" width="75" height="40" text="Turnen"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="11" x="106" y="563" measuredWidth="664" measuredHeight="224" dimmed="true">
+    <screen xsi:type="model:Screen" href="../komponenten/turnen-blog-post-vorschau.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="12" x="106" y="816" measuredWidth="664" measuredHeight="224" dimmed="true">
+    <screen xsi:type="model:Screen" href="../komponenten/turnen-blog-post-vorschau.screen#/"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

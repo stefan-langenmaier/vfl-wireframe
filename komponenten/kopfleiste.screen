@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
   <widgets xsi:type="model:Image" id="1" x="72" y="72" width="705" height="273" measuredWidth="705" measuredHeight="273"/>
-  <widgets xsi:type="model:Label" id="2" x="344" y="150" text="Title" measuredWidth="86" measuredHeight="67">
+  <widgets xsi:type="model:Label" id="2" x="344" y="150" text="Title" measuredWidth="174" measuredHeight="118">
     <font size="43px"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="10" x="72" y="72" text="Title" measuredWidth="27" measuredHeight="21">
+  <widgets xsi:type="model:Label" id="10" x="72" y="72" text="Title" measuredWidth="44" measuredHeight="34">
     <font size="10px"/>
   </widgets>
-  <widgets xsi:type="model:ButtonBar" id="11" x="72" y="72" width="705" text="Verein,Turnen,Fussball,Tischtennis,Wintersport, Tennis" measuredWidth="705" measuredHeight="27" selection="0">
+  <widgets xsi:type="model:ButtonBar" id="11" x="72" y="72" width="705" text="Verein,Turnen,Fussball,Tischtennis,Wintersport, Tennis" measuredWidth="705" measuredHeight="57" selection="0">
     <font/>
-    <items x="0" y="0" width="96" height="27" text="Verein"/>
-    <items x="96" y="0" width="104" height="27" text="Turnen"/>
-    <items x="200" y="0" width="111" height="27" text="Fussball"/>
-    <items x="311" y="0" width="143" height="27" text="Tischtennis"/>
-    <items x="454" y="0" width="146" height="27" text="Wintersport"/>
-    <items x="600" y="0" width="105" height="27" text="Tennis"/>
+    <items link="../seiten/verein.screen" x="0" y="0" width="92" height="57" text="Verein"/>
+    <items link="../seiten/turnen.screen" x="92" y="0" width="100" height="57" text="Turnen"/>
+    <items x="192" y="0" width="113" height="57" text="Fussball"/>
+    <items x="305" y="0" width="145" height="57" text="Tischtennis"/>
+    <items x="450" y="0" width="155" height="57" text="Wintersport"/>
+    <items x="605" y="0" width="100" height="57" text="Tennis"/>
   </widgets>
   <hRuler/>
   <vRuler/>

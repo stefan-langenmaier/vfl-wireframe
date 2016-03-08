@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
   <widgets xsi:type="model:Master" id="1" x="32" y="256" measuredWidth="167" measuredHeight="216" dimmed="true">
-    <screen xsi:type="model:Screen" href="komponenten/lizenz.screen#/"/>
+    <screen xsi:type="model:Screen" href="../komponenten/lizenz.screen#/"/>
   </widgets>
   <widgets xsi:type="model:Text" id="2" x="32" y="152" text="Legal" measuredWidth="57" measuredHeight="32">
     <font/>
