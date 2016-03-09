@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides">
+  <widgets xsi:type="model:Browser" id="1" x="80" y="43" width="1000" height="1400" text="Browser&#xA;http://..." measuredWidth="1000" measuredHeight="1400">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:ButtonBar" id="2" x="106" y="424" width="871" height="97" text="Ansprechpartner,Mannschaften,Trainingstermine,Terminkalender,Bildergalerie" measuredWidth="871" measuredHeight="97" selection="0">
+    <font size="8px"/>
+    <items x="0" y="0" width="187" height="97" text="Ansprechpartner"/>
+    <items x="187" y="0" width="163" height="97" text="Mannschaften"/>
+    <items x="350" y="0" width="189" height="97" text="Trainingstermine"/>
+    <items x="539" y="0" width="177" height="97" text="Terminkalender"/>
+    <items x="716" y="0" width="155" height="97" text="Bildergalerie"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="3" x="106" y="108" measuredWidth="705" measuredHeight="273" dimmed="true">
+    <screen xsi:type="model:Screen" href="../komponenten/kopfleiste.screen#/"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Insert" newIndex="4">
+        <object xsi:type="model:ButtonBar" id="9" x="72" y="75" width="705" text="Verein,Turnen,Fussball,Tischtennis,Wintersport, Tennis" selection="0">
+          <font/>
+          <items text="Verein"/>
+          <items text="Turnen"/>
+          <items text="Fussball"/>
+          <items text="Tischtennis"/>
+          <items text="Wintersport"/>
+          <items text="Tennis"/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Delete" ref="10"/>
+      <widgetChanges xsi:type="o:Delete" ref="9"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="7" x="288" y="1306" measuredWidth="599" measuredHeight="140" dimmed="true">
+    <screen xsi:type="model:Screen" href="../komponenten/fussleiste.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Breadcrumbs" id="10" x="106" y="391" text="Startseite, Tennis" measuredWidth="195" measuredHeight="40">
+    <font/>
+    <items x="0" y="0" width="103" height="40" text="Startseite"/>
+    <items x="123" y="0" width="69" height="40" text="Tennis"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="16" x="126" y="608" width="253" text="Galerie - 1" measuredWidth="253" measuredHeight="75" textAlignment="Center" icon="image (large)" iconPosition="top">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="17" x="420" y="608" width="253" text="Galerie - 2" measuredWidth="253" measuredHeight="75" textAlignment="Center" icon="image (large)" iconPosition="top">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="18" x="696" y="608" width="253" text="Galerie - 3" measuredWidth="253" measuredHeight="75" textAlignment="Center" icon="image (large)" iconPosition="top">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="19" x="126" y="760" width="253" text="Galerie - 4" measuredWidth="253" measuredHeight="75" textAlignment="Center" icon="image (large)" iconPosition="top">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
